@@ -2,27 +2,27 @@
 class Mandarine < Formula
   desc "Mandarine from the command line: cards and decisions for your agents"
   homepage "https://mandarine.tech"
-  version "0.4.6"
+  version "0.4.7"
 
   on_macos do
     on_arm do
-      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.6/mandarine_darwin_arm64.tar.gz"
-      sha256 "f22ab8976a70ae694d8b34e61f6849989b8bcaf0ee75acdcafd34696ccf9c6f0"
+      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.7/mandarine_darwin_arm64.tar.gz"
+      sha256 "8f37d658f962dd2bc755b821cd02cbe78aeb88adc47694b2b3eebaa238dff09e"
     end
     on_intel do
-      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.6/mandarine_darwin_amd64.tar.gz"
-      sha256 "9cd90894edd06bdff2406a70fd74e80c7cc467cef2c7ed389b09fdd24feb0c17"
+      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.7/mandarine_darwin_amd64.tar.gz"
+      sha256 "e4135248c4be22e93eac4fca44b83272116ba8def727d88509ca180b8ae1bdd7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.6/mandarine_linux_arm64.tar.gz"
-      sha256 "2d67bf6ccd802060fd9f87a9e32cc434f57681a82f461e1fcb54e0c5743b001a"
+      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.7/mandarine_linux_arm64.tar.gz"
+      sha256 "dea4dd460b309e67ceba918cefe6a92bc737bce018c26d41bbcd041e53a361ea"
     end
     on_intel do
-      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.6/mandarine_linux_amd64.tar.gz"
-      sha256 "ca455540d1f64a595eb9f5cd4de63c809df28ed0f2d92565206c4be878b73c8a"
+      url "https://github.com/alva-do/mandarine-cli/releases/download/0.4.7/mandarine_linux_amd64.tar.gz"
+      sha256 "4121987c7a6c11032e5e2dcfa33336896fb6ae27fb205cf615e08c8aa57e9541"
     end
   end
 
