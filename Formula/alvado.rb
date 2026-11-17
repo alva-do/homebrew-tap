@@ -2,27 +2,27 @@
 class Alvado < Formula
   desc "The alva.do CRM from the command line (quotes, contracts, time, invoices)"
   homepage "https://www.alvado.fr"
-  version "5.2.5"
+  version "5.2.14"
 
   on_macos do
     on_arm do
-      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.5/alvado_darwin_arm64.tar.gz"
-      sha256 "11d7f7d8ea60fb0b7a565b0da86b558f63a94e0ddf2b445a7ce66e69b5aaee94"
+      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.14/alvado_darwin_arm64.tar.gz"
+      sha256 "748d12760e657b978ea371b650a3f2559fdbf83c730317d1eb99cb9f1aa7d296"
     end
     on_intel do
-      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.5/alvado_darwin_amd64.tar.gz"
-      sha256 "c8738ad8d18b8279ad7edeba8727c7e11d92c49a2e6ffb38541260d9136f5cd1"
+      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.14/alvado_darwin_amd64.tar.gz"
+      sha256 "c717e16df1c89bb111dd6545f226e6b284da225e14ceea79e750e30d18ac5cd9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.5/alvado_linux_arm64.tar.gz"
-      sha256 "5c2d35d32374159c12fb484cbd12ff1d0a12da76c64ccd11c5ad776b6af21e4e"
+      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.14/alvado_linux_arm64.tar.gz"
+      sha256 "9b1257495f396d309702763f3486124f855b1f4d3c42db0a6873d0bad868afa5"
     end
     on_intel do
-      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.5/alvado_linux_amd64.tar.gz"
-      sha256 "5d5912facb77455a0dd9433125f9ee60322588286f7eeb4391977b7beaafeb62"
+      url "https://github.com/alva-do/alvado-cli/releases/download/5.2.14/alvado_linux_amd64.tar.gz"
+      sha256 "7b9cb27ac5cfed0718232cbeab2ca0c29e414cc02133851be56490a014314cbc"
     end
   end
 
